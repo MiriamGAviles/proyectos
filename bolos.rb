@@ -8,7 +8,7 @@ for i in 0..9
 	if marcador[i][0] == 10  
 		if i < 9
 			if marcador[i+1][0] == 10 #todo strikes
-				resultado[i] = marcador[i][0] + marcador[i+1][0] + marcador[i+2][1]
+				resultado[i] = marcador[i][0] + marcador[i+1][0] + marcador[i+2][0]
 			else
 				resultado[i] = marcador[i][0] + marcador[i+1][0] + marcador[i+1][1]
 			end
